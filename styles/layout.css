@@ -4,6 +4,8 @@
     justify-content: space-between;
     height: 80px;
     padding-inline: 80px;
+    background-color: var(--color0);
+    position: relative;
 }
 
 .header-logocompany-logo {
@@ -20,11 +22,93 @@
     left: 55px;
     font-size: 26px;
     letter-spacing: -.11em;
-    font-weight: 500;
+    font-weight: 400;
     top: 19px;
 }
 
 .header-menu {
     position: relative;
     top: 29px;
+}
+
+.main-sectionmain {
+    background-image: linear-gradient(-12deg, rgb(61, 61, 61), rgb(24, 24, 24));
+    padding-inline: 100px;
+    height: 113vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-sectionmain-title {
+    font-family: var(--font-default);
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.main-sectionmain-paragraph {
+    font-family: var(--font-default);
+    color: white;
+    font-weight: 400;
+    max-width: 600px;
+    font-size: 1.1em;
+    margin-bottom: 35px;
+}
+
+.main-sectionmain-button {
+    width: 180px;
+    padding-block: 14px;
+    background-color: var(--color1);
+    border: none;
+    font-family: var(--font-default);
+    color: white;
+    font-size: 1.17em;
+    border-radius: 3px;
+    margin-bottom: 190px;
+}
+
+.main-sectionintroduction {
+    position: relative;
+    top: -170px;
+    right: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0px 35px;
+}
+
+.main-sectionintroduction-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    background-color: var(--color2);
+    border-radius: 4px;
+}
+
+.main-sectionintroduction-item-image {
+    width: 280px;
+    height: 185px;
+    border-radius: 2px 2px 0px 0px;
+    object-fit: cover;
+}
+
+.main-sectionintroduction-item-text {
+    padding: 20px 30px;
+}
+
+.main-sectionintroduction-item-text-title {
+    font-family: var(--font-default);
+    color: black;
+    font-weight: 600;
+    font-size: 1.05em;
+    margin-bottom: 15px;
+}
+
+.main-sectionintroduction-item-text-paragraph {
+    font-family: var(--font-default);
+    color: black;
+    font-weight: 400;
+    font-size: .95em;
 }
