@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    padding-inline: 80px;
+}
+
+.header-logocompany-logo {
+    position: absolute;
+    height: 60px;
+    width: fit-content;
+    top: 0px;
+}
+
+.header-title {
+    font-family: var(--font-default);
+    color: var(--logo-title-color);
+    position: relative;
+    left: 55px;
+    font-size: 26px;
+    letter-spacing: -.11em;
+    font-weight: 500;
+    top: 19px;
+}
+
+.header-menu {
+    position: relative;
+    top: 29px;
+}
