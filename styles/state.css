@@ -5,3 +5,7 @@
 .main-sectionworks-work:has(.mobiledevelopment:target) > .main-sectionworks-work-title::after {
     content: "Mobile Development";
 }
+
+.footer-socials-item:hover {
+    cursor: pointer;
+}
