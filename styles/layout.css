@@ -16,7 +16,6 @@
 }
 
 .header-title {
-    font-family: var(--font-default);
     color: var(--logo-title-color);
     position: relative;
     left: 55px;
@@ -41,7 +40,6 @@
 }
 
 .main-sectionmain-title {
-    font-family: var(--font-default);
     color: white;
     font-weight: 600;
     font-size: 3em;
@@ -49,7 +47,6 @@
 }
 
 .main-sectionmain-paragraph {
-    font-family: var(--font-default);
     color: white;
     font-weight: 400;
     max-width: 600px;
@@ -58,28 +55,58 @@
 }
 
 .main-sectionmain-button {
-    width: 180px;
-    padding-block: 14px;
     background-color: var(--color1);
-    border: none;
-    font-family: var(--font-default);
     color: white;
     font-size: 1.17em;
-    border-radius: 3px;
     margin-bottom: 190px;
 }
 
 .main-sectionintroduction {
     position: relative;
     top: -170px;
-    right: 44px;
+    right: 5px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main-sectionintroduction-title {
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: 5em;
+    letter-spacing: .5em;
+    text-transform: capitalize;
+    text-align: right;
+    left: -20px;
+    max-width: 500px;
+    height: fit-content;
+    padding-left: 50px;
+
+}
+
+.main-sectionintroduction-introduction-space {
+    background-color: var(--color1);
+    top: 50px;
+    width: 95vw;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    border-radius: 40% 40% 0% 0%;
+    border-top: 5px solid var(--color2);
+}
+
+
+.main-sectionintroduction-list {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 0px 35px;
 }
 
-.main-sectionintroduction-item {
+.main-sectionintroduction-list-item {
     display: flex;
     flex-direction: column;
     max-width: 280px;
@@ -87,28 +114,99 @@
     border-radius: 4px;
 }
 
-.main-sectionintroduction-item-image {
+.main-sectionintroduction-list-item-image {
     width: 280px;
     height: 185px;
-    border-radius: 2px 2px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
     object-fit: cover;
 }
 
-.main-sectionintroduction-item-text {
+.main-sectionintroduction-list-item-text {
     padding: 20px 30px;
 }
 
-.main-sectionintroduction-item-text-title {
-    font-family: var(--font-default);
+.main-sectionintroduction-list-item-text-title {
     color: black;
     font-weight: 600;
     font-size: 1.05em;
     margin-bottom: 15px;
 }
 
-.main-sectionintroduction-item-text-paragraph {
-    font-family: var(--font-default);
+.main-sectionintroduction-list-item-text-paragraph {
     color: black;
     font-weight: 400;
     font-size: .95em;
 }
+
+.main-sectionourteam {
+    background-color: var(--color1);
+    position: relative;
+    top: -442px;
+    z-index: 0;
+    padding-top: 430px;
+    padding-inline: 100px;
+    padding-bottom: 40px;
+}
+
+.main-sectionourteam-top {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-sectionourteam-top-title {
+    color: white;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+.main-sectionourteam-top-paragraph {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.25em;
+    font-weight: 300;
+    letter-spacing: .023em;
+}
+
+.main-sectionourteam-team-item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    gap: 20px;
+}
+.main-sectionourteam-team-item-left {
+    flex-direction: row;
+}
+
+.main-sectionourteam-team-item-left > .main-sectionourteam-team-item-text {
+    text-align: left;
+}
+
+.main-sectionourteam-team-item-image {
+    width: 400px;
+}
+
+.main-sectionourteam-team-item-text  {
+    max-width: 600px;
+}
+
+.main-sectionourteam-team-item-text-title {
+    color: white;
+    font-weight: bold;
+}
+
+.main-sectionourteam-team-item-text-profission {
+    color: white;
+    font-weight: 300;
+    font-size: .92em;
+    margin-bottom: 10px;
+}
+
+.main-sectionourteam-team-item-text-paragraph {
+    color: white;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: 0.155em;
+}
+
