@@ -1,0 +1,7 @@
+.main-sectionworks-work:has(.webdevelopment:target) > .main-sectionworks-work-title::after {
+    content: "Web Development";
+}
+
+.main-sectionworks-work:has(.mobiledevelopment:target) > .main-sectionworks-work-title::after {
+    content: "Mobile Development";
+}
