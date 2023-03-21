@@ -218,7 +218,7 @@
 }
 
 .main-sectionbrandswehelp {
-    background-color: var(--color0);
+    background-image: linear-gradient(to bottom, #2c2c2c 50%, var(--color0));
     padding-block: 70px;
 }
 
