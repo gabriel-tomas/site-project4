@@ -1,4 +1,4 @@
-.header-logocompany-logo-back {
+/*.header-logocompany-logo-back {
     border-bottom: 8px solid #BFBFBF;
     width: 30px;
     height: 30px;
@@ -106,7 +106,7 @@
     left: 31px;
     width: 10px;
     transform: rotate(-35deg);
-}
+}*/
 
 .header-menu {
     display: flex;

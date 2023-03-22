@@ -1,0 +1,59 @@
+@media (max-width: 1280px) {
+    html {
+        font-size: 12px;
+    }
+
+    .main-sectionourteam-team-item-image {
+        width: 300px;
+    }
+
+    .main-sectionbrandswehelp-brands {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .main-sectionbrandswehelp-brands-item img {
+        width: 17vw;
+    }
+
+    .main-sectionworks-work-images {
+        width: 88%;
+    }
+
+    .main-sectioncontactus-forms {
+        width: 48%;
+    }
+
+    .main-sectioncontactus-contacts {
+        width: 48%;
+    }
+
+    .main-sectioncontactus-contacts-item-iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main-sectionworks-work-images {
+        width: 100%;
+    }
+}
+
+@media (max-width: 932px) {
+    .main-sectioncontactus-title {
+        margin-left: 2.5vw;
+    }
+
+    .main-sectioncontactus-forms {
+        margin-bottom: 60px;
+        justify-content: center;
+    }
+
+    .main-sectioncontactus-forms, .main-sectioncontactus-contacts {
+        width: 100%;
+    }
+
+    .main-sectioncontactus-contacts-item-iframe {
+        width: 91.3%;
+    }
+}
