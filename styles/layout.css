@@ -186,7 +186,7 @@
 }
 
 .main-sectionourteam-team-item-image {
-    width: 400px;
+    width: clamp(150px, 30%, 400px);;
     box-shadow: -30px 0px 0px var(--color3);
     border-radius: 50%;
     z-index: 0;
@@ -212,7 +212,7 @@
 .main-sectionourteam-team-item-text-paragraph {
     color: white;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: clamp(.8rem, 1.8vw, 1.1rem);
     letter-spacing: 0.155rem;
 }
 

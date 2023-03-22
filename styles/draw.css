@@ -119,3 +119,15 @@
     width: 28px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 932px) {
+    .header-menu {
+        gap: 5px;
+        position: relative;
+        top: 24px;
+    }
+
+    .header-menu-line {
+        width: 24px;
+    }
+}

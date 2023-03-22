@@ -4,7 +4,7 @@
     }
 
     .main-sectionourteam-team-item-image {
-        width: 300px;
+        width: clamp(150px, 30%, 300px);
     }
 
     .main-sectionbrandswehelp-brands {
@@ -13,7 +13,7 @@
     }
 
     .main-sectionbrandswehelp-brands-item img {
-        width: 17vw;
+        width: 18vw;
     }
 
     .main-sectionworks-work-images {
@@ -40,6 +40,41 @@
 }
 
 @media screen and (max-width: 932px) {
+    .header {
+        padding-inline: 5vw;
+        height: 65px;
+    }
+
+    .header-logocompany-logo {
+        width: 40px;
+    }
+
+    .main-sectionmain {
+        padding-inline: 5vw;
+    }
+
+    .main-sectionourteam {
+        padding-inline: 5vw;
+    }
+    
+    .main-sectionourteam-team {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .main-sectionourteam-team-item-left > .main-sectionourteam-team-item-image {
+        box-shadow: 20px 0px 0px var(--color4);
+    }
+    
+    .main-sectionourteam-team-item-image {
+        box-shadow: -20px 0px 0px var(--color3);
+    }
+
+    .main-sectionourteam-team-item-text {
+        width: 50%;
+    }
+
     .main-sectioncontactus-title {
         margin-left: 2.5vw;
     }
@@ -55,5 +90,74 @@
 
     .main-sectioncontactus-contacts-item-iframe {
         width: 91.3%;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    html {
+        font-size: 10px;
+    }
+
+    .main-sectionintroduction-front {
+        padding-inline: 20px;
+    }
+
+    .main-sectionintroduction-list {
+        gap: 10px;
+    }
+
+    .main-sectionintroduction-list-item-text {
+        padding-inline: 2vw;
+    }
+
+    .main-sectionintroduction-list-item-image {
+        height: 20vh;
+    }
+
+    .main-sectionbrandswehelp-brands {
+        margin-top: 25px;
+        gap: 1.3vw;
+    }
+
+    .main-sectionbrandswehelp-brands-item {
+        border-radius: 5px;
+    }
+
+    .main-sectionourteam {
+        padding-top: 50px;
+    }
+    
+    .main-sectionourteam-team  {
+        gap: 20px;
+    }
+
+    .main-sectionourteam-team-item-text {
+        width: 60%;
+    }
+
+    .main-sectionworks-work-buttons {
+        display: flex;
+        gap: 18px;
+    }
+
+    .main-sectionworks-work-buttons-item {
+        width: 12px;
+        height: 12px;
+    }
+
+    .main-sectioncontactus {
+        padding-inline: 5vw;
+    }
+
+    .main-sectioncontactus-contacts-item {
+        gap: 1px;
+    }
+
+    .footer {
+        padding-inline: 5vw;
+    }
+
+    .footer-socials-item, .main-sectioncontactus-contacts-item-top-image {
+        width: 22px;
     }
 }
