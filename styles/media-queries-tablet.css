@@ -13,7 +13,7 @@
     }
 
     .main-sectionbrandswehelp-brands-item img {
-        width: 18vw;
+        width: 17vw;
     }
 
     .main-sectionworks-work-images {
@@ -121,6 +121,10 @@
 
     .main-sectionbrandswehelp-brands-item {
         border-radius: 5px;
+    }
+
+    .main-sectionbrandswehelp-brands-item img {
+        width: 18vw;
     }
 
     .main-sectionourteam {
