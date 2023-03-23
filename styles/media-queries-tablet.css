@@ -40,6 +40,29 @@
 }
 
 @media screen and (max-width: 932px) {
+    .main-sectionintroduction-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-sectionintroduction-list-item {
+        width: 100%;
+        flex-direction: row;
+        transition: all .3s;
+        align-items: center;
+    }
+
+    .main-sectionintroduction-list-item * {
+        flex-basis: 100%;
+        transition: all .3s;
+    }
+
+    .main-sectionintroduction-list-item-image {
+       border-radius: 0px;
+       width: 100px;
+       height: 100%;
+    }
+
     .header {
         padding-inline: 5vw;
         height: 65px;
@@ -95,24 +118,17 @@
 
 @media screen and (max-width: 787px) {
     html {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .main-sectionintroduction-front {
         padding-inline: 20px;
     }
 
-    .main-sectionintroduction-list {
-        gap: 10px;
-    }
-
     .main-sectionintroduction-list-item-text {
         padding-inline: 2vw;
     }
 
-    .main-sectionintroduction-list-item-image {
-        height: 20vh;
-    }
 
     .main-sectionbrandswehelp-brands {
         margin-top: 25px;
@@ -165,3 +181,7 @@
         width: 22px;
     }
 }
+
+/* @media screen and (max-width: 675px) {
+    
+} */

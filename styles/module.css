@@ -1,5 +1,4 @@
 .button {
-    width: 180px;
     padding-block: 14px;
     border-radius: 3px;
     font-family: var(--font-default);
@@ -70,5 +69,5 @@
     font-family: var(--font1);
     color: #D7D7D7;
     font-size: 1.17rem;
-    width: 200px;
+    max-width: 200px;
 }

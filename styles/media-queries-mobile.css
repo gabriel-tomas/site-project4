@@ -1,0 +1,75 @@
+@media screen and (max-width: 433px) {
+    .main-sectionintroduction-list-item {
+        flex-direction: column;
+    }
+
+    .main-sectionintroduction-list-item-image {
+        width: 100%;
+    }
+
+    .main-sectionintroduction-list-item-text-title {
+        text-align: center;
+    }
+
+    .main-sectionourteam-team {
+        gap: 50px;
+    }
+
+    .main-sectionourteam-team-item {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .main-sectionourteam-team-item-image {
+        box-shadow: none;
+        width: 60%;
+    }
+
+    .main-sectionourteam-team-item-left >  .main-sectionourteam-team-item-image{
+        box-shadow: none;
+    }
+
+    .main-sectionourteam-team-item-left > .main-sectionourteam-team-item-text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .main-sectionourteam-team-item-text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .main-sectionbrandswehelp-brands {
+        justify-content: space-between;
+        margin-inline: 1.3vw;
+        gap: .1vw;
+    }
+
+    .main-sectioncontactus-contacts-item-iframe {
+        width: 90%;
+        position: relative;
+        left: -20px;
+        margin-top: 2vh;
+    }
+
+    
+}
+
+@media screen and (max-width: 201px) {
+    html {
+        font-size: clamp(.1rem, 5vw, 2rem);
+    }
+
+    .main-sectionworks-work-buttons {
+        flex-direction: column;
+    }
+
+    .main-sectionworks-button {
+        padding: 10px !important;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 5vh;
+    }
+}
