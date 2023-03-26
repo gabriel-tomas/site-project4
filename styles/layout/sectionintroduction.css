@@ -1,0 +1,78 @@
+.main-sectionintroduction {
+    width: 100%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-sectionintroduction-front {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #2c2c2c 50%, var(--color1));
+    width: 100%;
+    padding: 80px 35px;
+    z-index: 0;
+}
+
+.main-sectionintroduction-title {
+    color: white;
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    text-align: right;
+    left: -20px;
+    text-align: center;
+    height: fit-content;
+}
+
+.main-sectionintroduction-paragraph {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: .01rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-sectionintroduction-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px 35px;
+}
+
+.main-sectionintroduction-list-item {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: var(--color1);
+    border-radius: 4px;
+}
+
+.main-sectionintroduction-list-item-image {
+    width: 100%;
+    max-height: 185px;
+    border-radius: 4px 4px 0px 0px;
+    object-fit: cover;
+}
+
+.main-sectionintroduction-list-item-text {
+    padding: 20px 30px;
+}
+
+.main-sectionintroduction-list-item-text-title {
+    color: rgb(243, 243, 243);
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+}
+
+.main-sectionintroduction-list-item-text-paragraph {
+    color: rgb(243, 243, 243);
+    font-weight: 400;
+    font-size: 1rem;
+}

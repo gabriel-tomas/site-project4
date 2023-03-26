@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 100px;
+    background-color: #232323;
+    padding-block: 25px;
+    align-items: center;
+}
+
+.footer-copymade {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer-copymade p {
+    color: white;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-socials-item {
+    width: 28px;
+}

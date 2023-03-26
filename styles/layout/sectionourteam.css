@@ -1,0 +1,77 @@
+.main-sectionourteam {
+    background-color: var(--color1);
+    z-index: 0;
+    padding-top: 80px;
+    padding-inline: 6vw;
+    padding-bottom: 40px;
+}
+
+.main-sectionourteam-top {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-sectionourteam-top-title {
+    color: white;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.main-sectionourteam-top-paragraph {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: .023rem;
+}
+
+.main-sectionourteam-team-item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    gap: 20px;
+}
+.main-sectionourteam-team-item-left {
+    flex-direction: row;
+}
+
+.main-sectionourteam-team-item-left > .main-sectionourteam-team-item-text {
+    text-align: left;
+}
+
+.main-sectionourteam-team-item-left > .main-sectionourteam-team-item-image {
+    box-shadow: 30px 0px 0px var(--color4);
+}
+
+.main-sectionourteam-team-item-image {
+    width: clamp(150px, 30%, 400px);;
+    box-shadow: -30px 0px 0px var(--color3);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.main-sectionourteam-team-item-text  {
+    max-width: 600px;
+    z-index: 1;
+}
+
+.main-sectionourteam-team-item-text-title {
+    color: white;
+    font-weight: bold;
+}
+
+.main-sectionourteam-team-item-text-profission {
+    color: white;
+    font-weight: 300;
+    font-size: .92rem;
+    margin-bottom: 10px;
+}
+
+.main-sectionourteam-team-item-text-paragraph {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.155rem;
+}

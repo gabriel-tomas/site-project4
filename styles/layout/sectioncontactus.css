@@ -1,0 +1,69 @@
+.main-sectioncontactus {
+    background-color: #282828;
+    padding-inline: 100px;
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 70px;
+}
+
+.main-sectioncontactus-title {
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    width: 100%;
+    height: fit-content;
+}
+
+.main-sectioncontactus-forms {
+    display: grid;
+    width: 40%;
+    grid-template-columns: 45% 45%;
+    grid-template-areas: "firstname lastname" "email email" "message message";
+    row-gap: 23px;
+    column-gap: 17px;
+    margin-top: 40px;
+}
+
+.main-sectioncontactus-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-sectioncontactus-contacts-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main-sectioncontactus-contacts-item-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-sectioncontactus-contacts-item-top-image {
+    width: 28px;
+}
+
+.main-sectioncontactus-contacts-item-top-title {
+    color: white;
+    font-weight: 600;
+}
+
+.main-sectioncontactus-contacts-item-subtitle {
+    color: white;
+    font-weight: 400;
+    text-indent: 38.6px;
+}
+
+.main-sectioncontactus-contacts-item-iframe {
+    border-radius: 4px;
+    margin-left: 38.6px
+}

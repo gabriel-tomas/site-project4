@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    padding-inline: 80px;
+    background-color: var(--color0);
+}
+
+.header-logocompany {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logocompany-logo {
+    width: 47px;
+}
+
+.header-title {
+    color: var(--logo-title-color);
+    font-size: 1.625rem;
+    letter-spacing: -.11rem;
+    font-weight: 400;
+}
+
+#menu-input {
+    display: none;
+}
+
+#menu-input:checked ~ .header-menubutton {
+    position: absolute;
+    z-index: 2;
+    right: 80px;
+}
+
+#menu-input:checked ~ .header-menu {
+    display: block;
+}
+
+body:has(#menu-input:checked) .main, body:has(#menu-input:checked) .footer {
+    display: none;
+}
+
+.header-menubutton {
+    position: relative;
+    top: 29px;
+}
+
+.header-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color3);
+    z-index: 1;
+}
+
+.header-menu-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: clamp(0px, 48.15%, 520px);
+    justify-content: space-between;
+}
+
+.header-menu-nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: clamp(3.3rem, 5vw, 4.5rem);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 932px) {
+    #menu-input:checked ~ .header-menubutton {
+        right: 5vw;
+    }
+}

@@ -1,0 +1,42 @@
+.main-sectionworks {
+    background-color: var(--color0);
+    padding-bottom: 100px;
+}
+
+.main-sectionworks-title {
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.main-sectionworks-work-title {
+    color: #eeeeee94;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    font-weight: 300;
+}
+
+.main-sectionworks-work-images {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 1101px;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.main-sectionworks-work-images-item {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    padding-top: 55px;
+    filter: saturate(0%);
+}
+
+.main-sectionworks-work-images-item-center {
+    object-position: center center;
+}
