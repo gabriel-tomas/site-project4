@@ -112,12 +112,30 @@
     display: flex;
     flex-direction: column;
     gap: 7px;
+    height: fit-content;
 }
 
 .header-menubutton-line {
     border: 1px solid white;
     width: 28px;
     border-radius: 5px;
+    transition: .3s transform, .6s filter;
+}
+
+#menu-input:checked ~ .header-menubutton > .header-menubutton-line {
+    visibility: hidden;
+    filter: opacity(0%);
+}
+
+#menu-input:checked ~ .header-menubutton > .header-menubutton-close {
+    visibility: visible;
+    transform: rotate(45deg) translate(40%);
+    position: relative;
+    filter: opacity(100%);
+}
+
+#menu-input:checked ~ .header-menubutton > .header-menubutton-close ~ .header-menubutton-close {
+    transform: rotate(-45deg) translate(40%);
 }
 
 @media screen and (max-width: 932px) {

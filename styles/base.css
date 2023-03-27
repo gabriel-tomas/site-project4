@@ -63,6 +63,7 @@ table {
 html {
     background-color: grey;
     font-size: 13.4px;
+    cursor: url("../images/cursor/cursor-normal.svg"), pointer;
 }
 
 body {
@@ -77,3 +78,23 @@ button {
     border: none;
 }
 
+button:hover {
+    cursor: url("../images/cursor/cursor-event.svg"), pointer;
+}
+
+a:hover {
+    cursor: url("../images/cursor/cursor-event.svg"), pointer;
+}
+
+label:hover {
+    cursor: url("../images/cursor/cursor-event.svg"), pointer;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color2);
+    border-radius: 3px;
+}
