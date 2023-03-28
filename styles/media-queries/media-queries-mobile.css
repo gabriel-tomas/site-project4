@@ -4,6 +4,8 @@
     }
 
     .main-sectionintroduction-list-item-image {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 4px;
         width: 100%;
     }
 
