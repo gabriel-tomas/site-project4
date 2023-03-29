@@ -61,7 +61,7 @@ table {
 }
 
 html {
-    background-color: grey;
+    background-color: var(--color4);
     font-size: 13.4px;
     cursor: url("../images/cursor/cursor-normal.svg"), pointer;
 }

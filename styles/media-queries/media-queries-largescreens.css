@@ -1,0 +1,115 @@
+@media screen and (min-width: 2880px) {
+    .main-sectionworks-work-images {
+       width: 1350px;
+    }
+
+    .main-sectionworks-work-images-item {
+        width: 1350px;
+    }
+}
+
+@media screen and (min-width: 2040px) {
+    html {
+        font-size: 15px;
+    }
+    
+    section {
+        padding-inline: 20vw !important;
+    }
+
+    .main-sectionintroduction {
+        padding-inline: 0px !important;
+    }
+    
+    .main-sectionintroduction-front {
+        padding-inline: 20vw !important;
+    }
+}
+
+@media screen and (min-width: 2294px) {
+    html {
+        font-size: 15px;
+    }
+    
+    section {
+        padding-inline: 25vw !important;
+    }
+
+    .main-sectionintroduction {
+        padding-inline: 0px !important;
+    }
+    
+    .main-sectionintroduction-front {
+        padding-inline: 25vw !important;
+    }
+}
+
+@media screen and (min-width: 3100px) {
+    html {
+        font-size: 18px;
+    }
+
+    .main-sectionmain {
+        padding-block: 15vh;
+    }
+}
+
+@media screen and (min-width: 3675px) {
+    .main-sectionworks-work-images {
+        width: 1750px;
+    }
+
+    .main-sectionworks-work-images-item {
+        width: 1750px;
+    }
+}
+
+@media screen and (min-width: 3800px) {
+    html {
+        font-size: 23px;
+    }
+
+    .main-sectionmain {
+        padding-block: 20vh;
+    }
+
+    .main-sectionworks-work-images {
+        width: 1900px;
+        height: 60vh;
+    }
+
+    .main-sectionworks-work-images-item {
+        width: 1900px;
+    }
+}
+
+@media screen and (min-width: 4300px) {
+    html {
+        font-size: 30px;
+    }
+
+    section {
+        padding-inline: 40vw !important;
+    }
+
+    .main-sectionmain {
+        padding-block: 15vh;
+    }
+
+    .main-sectionmain-button {
+        max-width: 250px;
+    }
+
+    .main-sectionintroduction-front {
+        padding-inline: 40vw !important;
+    }
+
+    .main-sectionworks-work-images {
+        width: 1600px;
+        height: 30vh;
+    }
+
+    .main-sectionworks-work-images-item {
+        width: 1600px;
+    }
+}
