@@ -2,6 +2,12 @@
     padding-block: 14px;
     border-radius: 3px;
     font-family: var(--font-default);
+    transition: all .3s;
+}
+
+.button:active {
+    background-color: var(--button-active) !important;
+    transition: all 60ms;
 }
 
 .form {
@@ -46,6 +52,10 @@
     font-family: var(--font1);
 }
 
+.main-sectionworks button:hover {
+    background-color: var(--main-sectionworks-button-hover);
+}
+
 .main-sectioncontactus-forms-firstname {
     grid-area: firstname;
 }
@@ -67,7 +77,11 @@
 .main-sectioncontactus button {
     background-color: var(--color0);
     font-family: var(--font1);
-    color: #D7D7D7;
+    color: var(--main-sectioncontactus-button-color);
     font-size: 1.17rem;
     max-width: 200px;
+}
+
+.main-sectioncontactus button:hover {
+    background-color: var(--main-sectioncontactus-button-hover);
 }

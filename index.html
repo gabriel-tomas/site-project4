@@ -147,17 +147,17 @@
                     </a>
                 </div>
             </div>
-            <button class="main-sectionworks-button">Read more</button>
+            <button class="button main-sectionworks-button">Read more</button>
         </section>
         <section class="main-sectioncontactus">
             <h2 class="main-sectioncontactus-title">Contact us</h2>
-            <div class="main-sectioncontactus-forms">
-                <input class="form main-sectioncontactus-forms-firstname" type="text" placeholder="First name">
-                <input class="form main-sectioncontactus-forms-lastname" type="text" placeholder="Last name">
-                <input class="form main-sectioncontactus-forms-email" type="email" placeholder="Email">
+            <form class="main-sectioncontactus-forms" action="" autocomplete="on">
+                <input class="form main-sectioncontactus-forms-firstname" type="text" required minlength="5" maxlength="15" autocomplete="given-name" placeholder="First name">
+                <input class="form main-sectioncontactus-forms-lastname" type="text" required autocomplete="family-name" placeholder="Last name" minlength="5" maxlength="15">
+                <input class="form main-sectioncontactus-forms-email" type="email" required autocomplete="email" placeholder="Email">
                 <textarea cols="30" rows="10" class="form main-sectioncontactus-forms-message" placeholder="Message"></textarea>
                 <button class="button main-sectioncontactus-forms-buttonsubmit" type="submit">Submit</button>
-            </div>
+            </form>
             <div class="main-sectioncontactus-contacts">
                 <div class="main-sectioncontactus-contacts-item">
                     <div class="main-sectioncontactus-contacts-item-top">

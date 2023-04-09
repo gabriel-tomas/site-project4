@@ -7,7 +7,15 @@
     --color3: #333333;
     --color4: #828282;
 
+    --main-sectioncontactus-button-color: #D7D7D7;
+
+    --main-sectionmain-button-hover: #3c3c3c;
+    --main-sectionworks-button-hover: #3E3E3E;
+    --main-sectioncontactus-button-hover: #333333;
+
+    --button-active: #464646;
     --menu-button-active-color: #e0e0e0;
+
 
     --logo-title-color: white;
 
