@@ -45,8 +45,12 @@
     box-shadow: 30px 0px 0px var(--color4);
 }
 
+.main-sectionourteam-team-item-picture {
+    width: clamp(150px, 30%, 400px);
+}
+
 .main-sectionourteam-team-item-image {
-    width: clamp(150px, 30%, 400px);;
+    width: 100%;
     box-shadow: -30px 0px 0px var(--color3);
     border-radius: 50%;
     z-index: 0;

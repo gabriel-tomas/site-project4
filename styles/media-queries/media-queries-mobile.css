@@ -22,9 +22,12 @@
         gap: 5px;
     }
 
+    .main-sectionourteam-team-item-picture {
+        width: 60%;
+    }
+
     .main-sectionourteam-team-item-image {
         box-shadow: none;
-        width: 60%;
     }
 
     .main-sectionourteam-team-item-left >  .main-sectionourteam-team-item-image{

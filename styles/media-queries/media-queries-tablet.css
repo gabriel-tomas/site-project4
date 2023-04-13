@@ -3,7 +3,7 @@
         font-size: 12px;
     }
 
-    .main-sectionourteam-team-item-image {
+    .main-sectionourteam-team-item-picture {
         width: clamp(150px, 30%, 300px);
     }
 
