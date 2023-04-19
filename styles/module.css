@@ -1,7 +1,6 @@
 .button {
     padding-block: 14px;
     border-radius: 3px;
-    -webkit-border-radius: 3px;
     font-family: var(--font-default);
     transition: all .3s;
 }
