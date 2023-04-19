@@ -74,7 +74,7 @@
     max-lines: 200;
 }
 
-.main-sectioncontactus button {
+.main-sectioncontactus .button {
     background-color: var(--color0);
     font-family: var(--font1);
     color: var(--main-sectioncontactus-button-color);
@@ -82,6 +82,7 @@
     max-width: 200px;
 }
 
-.main-sectioncontactus button:hover {
+.main-sectioncontactus .button:hover {
     background-color: var(--main-sectioncontactus-button-hover);
+    cursor: url("../images/cursor/cursor-event.svg"), pointer;
 }
