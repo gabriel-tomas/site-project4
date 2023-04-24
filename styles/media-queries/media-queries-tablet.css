@@ -24,10 +24,6 @@
         width: 48%;
     }
 
-    .main-sectioncontactus-contacts {
-        width: 48%;
-    }
-
     .main-sectioncontactus-contacts-item-iframe {
         width: 100%;
     }
@@ -104,8 +100,18 @@
         width: 50%;
     }
 
-    .main-sectioncontactus-title {
-        margin-left: 2.5vw;
+    .main-sectioncontactus {
+        grid-template-columns: 100%;
+    }
+
+    .main-sectioncontactus-contacts {
+        grid-template-columns: 100%;
+        grid-template-rows: 5;
+    }
+
+    .main-sectioncontactus-contacts-item-right-item {
+        grid-column: 1;
+        grid-row: 5;
     }
 
     .main-sectioncontactus-forms {
@@ -134,7 +140,6 @@
     .main-sectionintroduction-list-item-text {
         padding-inline: 2vw;
     }
-
 
     .main-sectionbrandswehelp-brands {
         margin-top: 25px;

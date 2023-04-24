@@ -10,16 +10,6 @@
     transition: all 60ms;
 }
 
-.form {
-    padding-block: 15px;
-    background-color: var(--color2);
-    font-size: 1.17rem;
-    font-weight: 500;
-    font-family: var(--font1);
-    border-radius: 4px;
-    padding-inline: 20px;
-}
-
 .main-sectionworks-work-buttons {
     margin: auto;
     width: fit-content;
@@ -54,24 +44,6 @@
 
 .main-sectionworks button:hover {
     background-color: var(--main-sectionworks-button-hover);
-}
-
-.main-sectioncontactus-forms-firstname {
-    grid-area: firstname;
-}
-
-.main-sectioncontactus-forms-lastname {
-    grid-area: lastname;
-}
-
-.main-sectioncontactus-forms-email {
-    grid-area: email;
-}
-
-.main-sectioncontactus-forms-message {
-    grid-area: message;
-    height: 300px;
-    max-lines: 200;
 }
 
 .main-sectioncontactus .button {
