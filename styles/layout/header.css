@@ -72,7 +72,6 @@ body:has(#menu-input:checked) .main, body:has(#menu-input:checked) .footer {
 
 .header-menu-nav-item {
     color: white;
-    text-decoration: none;
     font-size: clamp(3.3rem, 5vw, 4.5rem);
     font-weight: 500;
 }

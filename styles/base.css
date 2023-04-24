@@ -88,6 +88,11 @@ button {
     border: none;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 button:hover {
     cursor: url("../images/cursor/cursor-event.svg"), pointer;
 }
