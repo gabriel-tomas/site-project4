@@ -18,6 +18,9 @@
 
 
     --logo-title-color: white;
+    --wrapper-image-background-DF: #967877;
+    --wrapper-image-background-NN: #D9D9D9;
+    --wrapper-image-background-Connectify: #504593;
 
     --font-default: "IBM Plex Mono", monospace;
     --font1: "Inter", sans-serif;
