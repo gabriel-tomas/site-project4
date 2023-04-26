@@ -21,6 +21,13 @@
     --wrapper-image-background-DF: #967877;
     --wrapper-image-background-NN: #D9D9D9;
     --wrapper-image-background-Connectify: #504593;
+    --wrapper-image-background-Homeo: #D5BC99;
+    --wrapper-image-background-BankApp: #A290DB;
+    --wrapper-image-background-IT: #092147;
+    --wrapper-image-background-acc: #E0DFE4;
+
+    --animation-main-section: opacity-brightness-increase 2.5s;
+    --btn-main-mainpage: opacity-increase 3.5s;
 
     --font-default: "IBM Plex Mono", monospace;
     --font1: "Inter", sans-serif;

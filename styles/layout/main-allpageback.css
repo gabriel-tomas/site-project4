@@ -8,6 +8,7 @@
 
 .main-services-center {
     margin: 0 auto;
+    animation: var(--animation-main-section);
 }
 
 .main-sectionmain-title {
@@ -16,105 +17,4 @@
 
 .main-sectionmain-paragraph {
     width: clamp(300px, 40vw, 504px);
-}
-
-.main-sectionintroduction-title {
-    font-weight: 500;
-}
-
-.wrapper-section-middle {
-    width: fit-content;
-    margin-inline: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 7vh;
-    padding-bottom: 15vh;
-}
-
-.wrapper-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 2vw;
-}
-
-.list-item {
-    display: grid;
-    grid-template-rows: auto clamp(180px, 73%, 310px) auto;
-    grid-template-columns: clamp(300px, 30vw, 450px);
-    min-height: 300px;
-}
-
-.fillallbox {
-    width: 100%;
-}
-
-.allbox-position {
-    height: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-}
-
-.position-mid {
-    height: 100%;
-    object-fit: contain;
-    object-position: center center;
-}
-
-.small-padding {
-    padding: 10px;
-}
-
-.mediumsize {
-    width: 70%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.medium-wrapper-img {
-    position: relative;
-}
-
-.padding-space {
-    padding: 30px;
-    width: 80%;
-}
-
-.smallsize {
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.accwrapper {
-    position: relative;
-}
-
-.accsize {
-    width: 65%;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.wrapper-image {
-    border-radius: 5px;
-}
-
-.wrapper-image-dishflavor {
-    background-color: var(--wrapper-image-background-DF);
-}
-
-.wrapper-image-NN {
-    background-color: var(--wrapper-image-background-NN);
-}
-
-.wrapper-image-Connectify {
-    background-color: var(--wrapper-image-background-Connectify);
 }

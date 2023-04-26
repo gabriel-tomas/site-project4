@@ -7,6 +7,14 @@
     justify-content: center;
 }
 
+.anmt-text {
+    animation: var(--animation-main-section);
+}
+
+.anmt-btn {
+    animation: var(--btn-main-mainpage);
+}
+
 .main-sectionmain-title {
     color: white;
     font-weight: 600;

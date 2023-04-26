@@ -38,7 +38,7 @@
     display: block;
 }
 
-body:has(#menu-input:checked) .main, body:has(#menu-input:checked) .footer {
+body:has(#menu-input:checked) .main .main-sectionmain ~ section, body:has(#menu-input:checked) .main ~ section, body:has(#menu-input:checked) .footer {
     display: none;
 }
 
