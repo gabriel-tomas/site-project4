@@ -83,6 +83,31 @@
 
 .wrapper-image {
     border-radius: 5px;
+    position: relative;
+}
+
+.item-hover-item-img {
+    transition: .3s filter;
+}
+
+.link-hoveritem-wrapper {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.23);
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    filter: blur(15px) opacity(0%) brightness(0%);
+    transition: .5s filter;
+}
+
+.link-hoveritem {
+    display: table-caption;
+    text-align: center;
+    font-size: .97rem;
 }
 
 .wrapper-image-dishflavor {

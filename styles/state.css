@@ -5,3 +5,49 @@
 .main-sectionworks-work:has(.mobiledevelopment:target) > .main-sectionworks-work-title::after {
     content: "Mobile Development";
 }
+
+.header-menu-nav-item::after {
+    content: "";
+    width: 0px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    transition: .2s width;
+}
+
+.header-menu-nav-item:hover::after {
+    transition: .3s width;
+    width: 100%;
+}
+
+.header-menu-nav-item:active {
+    color: var(--menu-button-active-color);
+}
+
+.header-menu-nav-item:active::after {
+    background-color: var(--menu-button-active-color);
+}
+
+.button:active {
+    background-color: var(--button-active) !important;
+    transition: all 60ms;
+}
+
+.main-sectionmain-button:hover {
+    background-color: var(--main-sectionmain-button-hover);
+}
+
+.main-sectionworks .button-link:hover {
+    background-color: var(--main-sectionworks-button-hover);
+}
+
+.main-sectioncontactus .button:hover {
+    background-color: var(--main-sectioncontactus-button-hover);
+    cursor: url("../images/cursor/cursor-event.svg"), pointer;
+}
+
+.footer-socials > a:hover > .footer-socials-item {
+    filter: brightness(100%);
+    transition: .4s filter;
+}

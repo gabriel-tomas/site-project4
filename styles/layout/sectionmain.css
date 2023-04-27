@@ -36,7 +36,3 @@
     font-size: 1.17rem;
     max-width: 180px;
 }
-
-.main-sectionmain-button:hover {
-    background-color: var(--main-sectionmain-button-hover);
-}

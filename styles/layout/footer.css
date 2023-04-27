@@ -29,8 +29,3 @@
     filter: brightness(0) invert(1);
     transition: .2s filter;
 }
-
-.footer-socials > a:hover > .footer-socials-item {
-    filter: brightness(100%);
-    transition: .4s filter;
-}

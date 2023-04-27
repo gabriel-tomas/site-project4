@@ -1,0 +1,8 @@
+.wrapper-image:hover .item-hover-item-img {
+    filter: blur(10px) brightness(80%);
+}
+
+.wrapper-image:hover .link-hoveritem-wrapper {
+    visibility: visible;
+    filter: blur(0px) opacity(100%) brightness(100%);
+}

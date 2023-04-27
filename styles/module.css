@@ -5,11 +5,6 @@
     transition: all .3s;
 }
 
-.button:active {
-    background-color: var(--button-active) !important;
-    transition: all 60ms;
-}
-
 .main-sectionworks-work-buttons {
     margin: auto;
     width: fit-content;
@@ -28,7 +23,7 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
 }
 
-.main-sectionworks button {
+.main-sectionworks .button-link {
     text-transform: capitalize;
     padding: 16px 40px;
     font-size: 1.17rem;
@@ -42,19 +37,10 @@
     font-family: var(--font1);
 }
 
-.main-sectionworks button:hover {
-    background-color: var(--main-sectionworks-button-hover);
-}
-
 .main-sectioncontactus .button {
     background-color: var(--color0);
     font-family: var(--font1);
     color: var(--main-sectioncontactus-button-color);
     font-size: 1.17rem;
     max-width: 200px;
-}
-
-.main-sectioncontactus .button:hover {
-    background-color: var(--main-sectioncontactus-button-hover);
-    cursor: url("../images/cursor/cursor-event.svg"), pointer;
 }

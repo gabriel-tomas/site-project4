@@ -7,8 +7,11 @@
     background-color: var(--color0);
 }
 
-.header-logocompany {
+.header-logocompany-wrapper, .header-logocompany {
     display: flex;
+}
+
+.header-logocompany {
     flex-direction: row;
     align-items: center;
 }
@@ -74,29 +77,6 @@ body:has(#menu-input:checked) .main .main-sectionmain ~ section, body:has(#menu-
     color: white;
     font-size: clamp(3.3rem, 5vw, 4.5rem);
     font-weight: 500;
-}
-
-.header-menu-nav-item::after {
-    content: "";
-    width: 0px;
-    height: 4px;
-    background-color: white;
-    display: block;
-    margin: 0 auto;
-    transition: .2s width;
-}
-
-.header-menu-nav-item:hover::after {
-    transition: .3s width;
-    width: 100%;
-}
-
-.header-menu-nav-item:active {
-    color: var(--menu-button-active-color);
-}
-
-.header-menu-nav-item:active::after {
-    background-color: var(--menu-button-active-color);
 }
 
 @media screen and (max-width: 932px) {
