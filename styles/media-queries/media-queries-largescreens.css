@@ -13,7 +13,7 @@
         font-size: 15px;
     }
     
-    section {
+    .main > section {
         padding-inline: 20vw !important;
     }
 
@@ -31,7 +31,7 @@
         font-size: 15px;
     }
     
-    section {
+    .main > section {
         padding-inline: 25vw !important;
     }
 
@@ -88,7 +88,7 @@
         font-size: 30px;
     }
 
-    section {
+    .main > section {
         padding-inline: 40vw !important;
     }
 

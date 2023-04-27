@@ -16,5 +16,5 @@
 }
 
 .main-sectionmain-paragraph {
-    width: clamp(300px, 40vw, 504px);
+    width: clamp(250px, 40vw, 504px);
 }
