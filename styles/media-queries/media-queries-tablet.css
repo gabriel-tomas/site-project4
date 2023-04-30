@@ -130,6 +130,8 @@
 }
 
 @media screen and (max-width: 787px) {
+    /* index page */
+
     html {
         font-size: 11px;
     }
@@ -156,7 +158,7 @@
     }
     
     .main-sectionourteam-team  {
-        gap: 20px;
+        gap: 8vh;
     }
 
     .main-sectionourteam-team-item-text {
@@ -188,6 +190,53 @@
 
     .footer-socials-item, .main-sectioncontactus-contacts-item-top-image {
         width: 22px;
+    }
+
+    /* page-works */
+
+    .link-hoveritem-wrapper {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 0px !important;
+        filter: none !important;
+        transition: none !important;
+        border-radius: 0 !important;
+        border: 0 !important;
+        background-color: transparent !important;
+    }
+
+    .link-hoveritem {
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        color: transparent;
+    }
+
+    .wrapper-image:hover .item-hover-item-img {
+        filter: none !important;
+    }
+
+    .wrapper-image {
+        transition: .4s margin cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    .list-item {
+        box-sizing: border-box;
+    }
+    
+    .wrapper-image:hover {
+        margin: 5px !important;
+    }
+
+    .list-item{
+        box-sizing: border-box;
+    }
+
+    .wrapper-image:active .item-hover-item-img {
+        filter: invert(10%) !important;
+        transition: none;
     }
 }
 

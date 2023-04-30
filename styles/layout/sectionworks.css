@@ -24,7 +24,8 @@
     overflow: hidden;
     scroll-behavior: smooth;
     width: 1101px;
-    height: 80vh;
+    min-height: 500px;
+    max-height: 80vh;
     margin: 0 auto;
 }
 
