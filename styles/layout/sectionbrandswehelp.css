@@ -14,10 +14,16 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    padding-inline: 35px;
 }
 
 .main-sectionbrandswehelp-brands-item {
     background-color: hsla(0, 0%, 36%, 0.5);
     padding-block: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
+}
+
+.main-sectionbrandswehelp-brands-item > img {
+    width: 13vw;
+    margin-inline: clamp(3px, 3vw, 30px);
 }

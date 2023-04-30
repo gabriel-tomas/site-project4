@@ -45,9 +45,11 @@
     }
 
     .main-sectionbrandswehelp-brands {
-        justify-content: space-between;
-        margin-inline: 1.3vw;
-        gap: .1vw;
+        gap: 1vw;
+    }
+
+    .main-sectionbrandswehelp-brands-item > img {
+        width: 18vw;
     }
 
     .main-sectioncontactus-contacts-item-iframe {
