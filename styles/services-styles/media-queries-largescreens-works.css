@@ -1,0 +1,51 @@
+@media screen and (max-width: 1350px) {
+    .list-item {
+        min-height: 300px !important;
+    }
+}
+
+@media screen and (min-width: 2880px) {
+    .main-sectionworks-work-images {
+       width: 1350px;
+    }
+
+    .main-sectionworks-work-images-item {
+        width: 1350px;
+    }
+}
+
+@media screen and (min-width: 2040px) {
+    html {
+        font-size: 15px;
+    }
+    
+    .main > section {
+        padding-inline: 20vw !important;
+    }
+
+    .main-sectionintroduction {
+        padding-inline: 0px !important;
+    }
+    
+    .main-sectionintroduction-front {
+        padding-inline: 20vw !important;
+    }
+}
+
+@media screen and (min-width: 2294px) {
+    html {
+        font-size: 15px;
+    }
+    
+    .main > section {
+        padding-inline: 25vw !important;
+    }
+
+    .main-sectionintroduction {
+        padding-inline: 0px !important;
+    }
+    
+    .main-sectionintroduction-front {
+        padding-inline: 25vw !important;
+    }
+}

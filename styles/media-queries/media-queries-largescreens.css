@@ -1,6 +1,22 @@
-@media screen and (max-width: 1350px) {
-    .list-item {
-        min-height: 300px !important;
+@media screen and (min-width: 1612px) {
+    html {
+        font-size: 13px;
+    }
+    .main > section, .main-sectionintroduction-front {
+        padding-inline: 15vw !important;
+    }
+
+    .main > .main-sectionintroduction {
+        padding-inline: 0px !important;
+    }
+
+    .main-sectionbrandswehelp-brands-item {
+        border-radius: 10px;
+    }
+
+    .main-sectionbrandswehelp-brands-item > img {
+        width: fit-content;
+        margin-inline: 0;
     }
 }
 
@@ -18,18 +34,6 @@
     html {
         font-size: 15px;
     }
-    
-    .main > section {
-        padding-inline: 20vw !important;
-    }
-
-    .main-sectionintroduction {
-        padding-inline: 0px !important;
-    }
-    
-    .main-sectionintroduction-front {
-        padding-inline: 20vw !important;
-    }
 }
 
 @media screen and (min-width: 2294px) {
@@ -39,10 +43,6 @@
     
     .main > section {
         padding-inline: 25vw !important;
-    }
-
-    .main-sectionintroduction {
-        padding-inline: 0px !important;
     }
     
     .main-sectionintroduction-front {
@@ -87,15 +87,15 @@
     .main-sectionworks-work-images-item {
         width: 1900px;
     }
+
+    .main-sectioncontactus-contacts {
+        row-gap: 2vh;
+    }
 }
 
 @media screen and (min-width: 4300px) {
     html {
-        font-size: 30px;
-    }
-
-    .main > section {
-        padding-inline: 40vw !important;
+        font-size: 28px;
     }
 
     .main-sectionmain {
@@ -104,10 +104,6 @@
 
     .main-sectionmain-button {
         max-width: 250px;
-    }
-
-    .main-sectionintroduction-front {
-        padding-inline: 40vw !important;
     }
 
     .main-sectionworks-work-images {
