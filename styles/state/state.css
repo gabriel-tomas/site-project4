@@ -44,7 +44,7 @@
 
 .main-sectioncontactus .button:hover {
     background-color: var(--main-sectioncontactus-button-hover);
-    cursor: url("../images/cursor/cursor-event.svg"), pointer;
+    cursor: url("../../images/cursor/cursor-event.svg"), pointer;
 }
 
 .footer-socials > a:hover > .footer-socials-item {
